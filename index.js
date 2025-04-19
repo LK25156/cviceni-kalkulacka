@@ -9,7 +9,7 @@ const handleDigitClick = (event) => {
  }
 const digit = event.target.textContent;
 if (displayElm.textContent === "0") {
-  displayElm.textContent = digit; //na displeji je nula,chceme ji nahradit zadanou číslicí
+  displayElm.textContent = digit; // bonusový úkol - na displeji je nula,chceme ji nahradit zadanou číslicí
 }else {
   displayElm.textContent += digit;
 }
